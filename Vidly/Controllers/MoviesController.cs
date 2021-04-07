@@ -16,7 +16,7 @@ namespace Vidly.Controllers
             var movie = new Movie() { Name = "Shrek" };
             var customers = new List<Customer>
             {
-                new Customer{Name = "Vustomer 1"},
+                new Customer{Name = "Customer 1"},
                 new Customer {Name = "Customer 2"}
 
             };
@@ -29,7 +29,7 @@ namespace Vidly.Controllers
 
             };
 
-            return View(movie);
+            return View(viewModel);
 
        
         }
